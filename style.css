@@ -1,0 +1,28 @@
+body{
+  font-display: "Sans-serif";
+  text-align: justify;
+  max-width:800px;
+  margin:0 auto;
+  background-color:rgb(18, 23,27);
+  color:#fff;
+}
+.paragraph{
+  font-size: 24px;
+}
+.more-text{
+  display: none;
+}
+.read-more-btn{
+  padding:15px 60px;
+  background-color:rgb (149, 170, 197);
+  border:none;
+  outline:none;
+  font-size: 20px;
+  cursor: pointer;
+}
+.paragraph.show-more .more-text{
+  display: inline;
+}
+.paragraph.show-more .dots{
+  display: none;
+}
